@@ -6,17 +6,79 @@ header{
     padding: 18px 0;
 }
 .container{
-    max-width: 1000px;
+    max-width: 940px;
     margin: auto;
 }
 header .container{
-    padding: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-header nav ul{
-list-style: none;
+header .our_logo{
     display: flex;
     align-items: center;
+}
+header .our_logo h3{
+    margin-left: 18px;
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #333333;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+header nav ul li{
+    text-decoration: none;
+    margin: 0 17px;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #404040;
+}
+header nav ul li:first-of-type{
+    margin-left: 0;
+}
+header nav ul li:last-of-type{
+    margin-right: 0;
+}
+.main_banner{
+    background-image: url("../images/main_banner.jpg");
+    background-size: cover;
+    position: relative;
+    min-height: 391px;
+}
+.main_banner .container{
+    max-width: 672px;
+    padding-top: 105px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.main_title{
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-size: 44px;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 55px;
+}
+.main_text{
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.81);
 }
