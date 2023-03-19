@@ -1,0 +1,10 @@
+.main_banner {
+  background-image: url("../images/011.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.main_banner .container {
+  height: 100vh;
+}
+
+/*# sourceMappingURL=style.css.map */
