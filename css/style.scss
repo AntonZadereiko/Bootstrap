@@ -48,16 +48,16 @@ header{
     .container {
     height: 100vh;
       .main_banner_box {
-        height: 450px;
-          @include max-screen(390px){
-            height: 250px;
-          }
+        height: 250px;
+        @include max-screen(600px){
+
+        }
         .main_title {
           margin-bottom: 30px;
           font-family: $main_font;
           font-size: 50px;
           @include max-screen(429px) {
-            font-size: 35px;
+            font-size: 30px;
           }
           @include max-screen(324px) {
             font-size: 25px;
@@ -68,6 +68,10 @@ header{
           margin-bottom: 65px;
           font-family: $main_font;
           font-size: 30px;
+          @include max-screen(550px) {
+            font-size: 20px;
+            margin-bottom: 30px;
+          }
         }
 
         .main_links {
@@ -81,9 +85,20 @@ header{
           @include max-screen(992px) {
             margin-bottom: 10px;
           }
+          @include max-screen(550px) {
+            padding: 15px 27px;
+          }
 
           &:first-of-type {
             margin-right: 20px;
+          }
+          &:last-of-type{
+            @include max-screen(550px) {
+              padding: 15px 19px;
+            }
+            @include max-screen(391px) {
+              padding: 15px 15px;
+            }
           }
         }
       }
