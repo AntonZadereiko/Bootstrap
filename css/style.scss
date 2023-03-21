@@ -20,6 +20,9 @@ header{
   .navbar{
     .first_text{
       margin: revert;
+      @include max-screen(768px){
+        color: white;
+      }
       @include max-screen(373px){
         margin-left: -15px;
       }
@@ -45,6 +48,10 @@ header{
   background-image: url("../images/011.jpg");
   background-size: cover;
   height: 100vh;
+  @include max-screen(768px){
+    background-image: url("../images/delivery.jpg");
+    background-size: cover;
+  }
     .container {
     height: 100vh;
       .main_banner_box {
@@ -56,6 +63,9 @@ header{
           margin-bottom: 30px;
           font-family: $main_font;
           font-size: 50px;
+          @include max-screen(768px){
+            color: white;
+          }
           @include max-screen(429px) {
             font-size: 30px;
           }
@@ -68,6 +78,9 @@ header{
           margin-bottom: 65px;
           font-family: $main_font;
           font-size: 30px;
+          @include max-screen(768px){
+            color: white;
+          }
           @include max-screen(550px) {
             font-size: 20px;
             margin-bottom: 30px;
@@ -135,7 +148,7 @@ header{
     }
 
     .elements {
-      font-size: 30px;
+      font-size: 22px;
       margin-right: 10px;
 
       .elements_text {
