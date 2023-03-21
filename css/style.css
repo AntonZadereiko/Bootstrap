@@ -104,16 +104,16 @@ header .navbar .navbar-nav .nav-item .nav-link {
 .firm_style .row .elements .elements_text {
   font-size: 13px;
 }
-.firm_style .row .lifecare {
+.firm_style .lifecare {
   margin-top: 120px;
 }
-.firm_style .row .lifecare h3 {
+.firm_style .lifecare .firm_style_subtitle {
   margin-bottom: 15px;
 }
-.firm_style .row .lifecare .firm_style_text {
+.firm_style .lifecare .firm_style_text {
   font-size: 18px;
 }
-.firm_style .row .lifecare .firm_style_text:last-of-type {
+.firm_style .lifecare .firm_style_text:last-of-type {
   background: lightseagreen;
   border-radius: 5px;
   margin-left: -10px;

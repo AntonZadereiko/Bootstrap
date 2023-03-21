@@ -80,10 +80,12 @@ header{
 .firm_style{
   padding: 70px 0 133px;
   .row {
-  margin-bottom: 120px;
-    .firm_style_subtitle{
+    margin-bottom: 120px;
+
+    .firm_style_subtitle {
       margin-bottom: 15px;
     }
+
     .firm_style_photo {
       max-width: 635px;
       margin-bottom: 10px;
@@ -113,11 +115,12 @@ header{
         font-size: 13px;
       }
     }
+  }
 
     .lifecare {
       margin-top: 120px;
 
-      h3 {
+      .firm_style_subtitle {
         margin-bottom: 15px;
       }
 
@@ -133,5 +136,4 @@ header{
 
       }
     }
-  }
 }
