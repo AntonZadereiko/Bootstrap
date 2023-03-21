@@ -33,27 +33,32 @@ header .navbar .navbar-nav .nav-item .nav-link {
 .main_banner .container {
   height: 100vh;
 }
-.main_banner .container .main_title {
+@media screen and (max-width: 390px) {
+  .main_banner .container .main_banner_box {
+    height: 60%;
+  }
+}
+.main_banner .container .main_banner_box .main_title {
   margin-bottom: 30px;
   font-family: "Roboto", sans-serif;
   font-size: 50px;
 }
 @media screen and (max-width: 429px) {
-  .main_banner .container .main_title {
+  .main_banner .container .main_banner_box .main_title {
     font-size: 35px;
   }
 }
 @media screen and (max-width: 324px) {
-  .main_banner .container .main_title {
+  .main_banner .container .main_banner_box .main_title {
     font-size: 25px;
   }
 }
-.main_banner .container .main_subtitle {
+.main_banner .container .main_banner_box .main_subtitle {
   margin-bottom: 65px;
   font-family: "Roboto", sans-serif;
   font-size: 30px;
 }
-.main_banner .container .main_links {
+.main_banner .container .main_banner_box .main_links {
   padding: 23px 47px;
   border-radius: 40px;
   font-family: "Roboto", sans-serif;
@@ -63,11 +68,11 @@ header .navbar .navbar-nav .nav-item .nav-link {
   line-height: 140%;
 }
 @media screen and (max-width: 992px) {
-  .main_banner .container .main_links {
+  .main_banner .container .main_banner_box .main_links {
     margin-bottom: 10px;
   }
 }
-.main_banner .container .main_links:first-of-type {
+.main_banner .container .main_banner_box .main_links:first-of-type {
   margin-right: 20px;
 }
 
