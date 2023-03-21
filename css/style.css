@@ -39,11 +39,11 @@ header .navbar .navbar-nav .nav-item .nav-link {
   height: 100vh;
 }
 .main_banner .container .main_banner_box {
-  height: 250px;
+  height: 450px;
 }
 @media screen and (max-width: 390px) {
   .main_banner .container .main_banner_box {
-    height: 200px;
+    height: 250px;
   }
 }
 .main_banner .container .main_banner_box .main_title {

@@ -48,9 +48,9 @@ header{
     .container {
     height: 100vh;
       .main_banner_box {
-        height: 250px;
+        height: 450px;
           @include max-screen(390px){
-            height: 200px;
+            height: 250px;
           }
         .main_title {
           margin-bottom: 30px;
