@@ -18,8 +18,11 @@ header{
     padding: 5px;
   }
   .navbar{
-    p{
+    .first_text{
       margin: revert;
+      @include max-screen(373px){
+        margin-left: -15px;
+      }
     }
     .navbar-brand{
       margin-right: 22px;
@@ -45,8 +48,9 @@ header{
     .container {
     height: 100vh;
       .main_banner_box {
+        height: 250px;
           @include max-screen(390px){
-            height: 60%;
+            height: 200px;
           }
         .main_title {
           margin-bottom: 30px;
