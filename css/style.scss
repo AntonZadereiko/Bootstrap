@@ -11,11 +11,19 @@ header{
     background-color: lightgrey;
     border-radius: 10px;
     padding: 5px;
+    @include max-screen(768px){
+      background-color: blue;
+      border-radius: 10px;
+    }
   }
   .show{
     background-color: lightgrey;
     border-radius: 10px;
     padding: 5px;
+    @include max-screen(768px){
+      background-color: blue;
+      border-radius: 10px;
+    }
   }
   .navbar{
     .first_text{
@@ -118,7 +126,7 @@ header{
   }
 }
 .firm_style{
-  padding: 70px 0 133px;
+  padding: 70px 0 0;
   .row {
     margin-bottom: 120px;
 
@@ -150,9 +158,8 @@ header{
     .elements {
       font-size: 22px;
       margin-right: 10px;
-
-      .elements_text {
-        font-size: 13px;
+      &::marker{
+        font-size: 30px;
       }
     }
   }
@@ -176,4 +183,29 @@ header{
 
       }
     }
+}
+.portfolio{
+.portfolio_image{
+  display: block;
+  width: 100%;
+  margin-bottom: 54px;
+  margin-top: 30px;
+}
+  .portfolio_title{
+    font-family: $main_font;
+    font-size: 40px;
+  }
+  .portfolio_text{
+    margin-bottom: 35px;
+    font-family: $main_font;
+    font-size: 20px;
+  }
+  .portfolio_link{
+    font-family: $main_font;
+    font-size: 20px;
+    color: black;
+    border: solid 2px black;
+    border-radius: 20px;
+    padding: 25px 20px;
+  }
 }

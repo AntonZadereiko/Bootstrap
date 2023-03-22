@@ -4,10 +4,22 @@ header .collapsing {
   border-radius: 10px;
   padding: 5px;
 }
+@media screen and (max-width: 768px) {
+  header .collapsing {
+    background-color: blue;
+    border-radius: 10px;
+  }
+}
 header .show {
   background-color: lightgrey;
   border-radius: 10px;
   padding: 5px;
+}
+@media screen and (max-width: 768px) {
+  header .show {
+    background-color: blue;
+    border-radius: 10px;
+  }
 }
 header .navbar .first_text {
   margin: revert;
@@ -122,7 +134,7 @@ header .navbar .navbar-nav .nav-item .nav-link {
 }
 
 .firm_style {
-  padding: 70px 0 133px;
+  padding: 70px 0 0;
 }
 .firm_style .row {
   margin-bottom: 120px;
@@ -151,8 +163,8 @@ header .navbar .navbar-nav .nav-item .nav-link {
   font-size: 22px;
   margin-right: 10px;
 }
-.firm_style .row .elements .elements_text {
-  font-size: 13px;
+.firm_style .row .elements::marker {
+  font-size: 30px;
 }
 .firm_style .lifecare {
   margin-top: 120px;
@@ -168,6 +180,30 @@ header .navbar .navbar-nav .nav-item .nav-link {
   border-radius: 5px;
   margin-left: -10px;
   padding: 10px;
+}
+
+.portfolio .portfolio_image {
+  display: block;
+  width: 100%;
+  margin-bottom: 54px;
+  margin-top: 30px;
+}
+.portfolio .portfolio_title {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+}
+.portfolio .portfolio_text {
+  margin-bottom: 35px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+.portfolio .portfolio_link {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: black;
+  border: solid 2px black;
+  border-radius: 20px;
+  padding: 25px 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
