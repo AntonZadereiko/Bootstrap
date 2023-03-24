@@ -252,3 +252,17 @@ header{
     padding: 7px;
   }
 }
+.stages{
+  margin-top: 100px;
+  .stages_title{
+    margin-bottom: 83px;
+  }
+  .stages_photo{
+    display: block;
+    margin-bottom: 22px;
+  }
+  .stages_text{
+    font-family: $main_font;
+    font-size: 15px;
+  }
+}

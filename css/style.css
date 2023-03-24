@@ -248,4 +248,19 @@ header .navbar .navbar-nav .nav-item .nav-link {
   padding: 7px;
 }
 
+.stages {
+  margin-top: 100px;
+}
+.stages .stages_title {
+  margin-bottom: 83px;
+}
+.stages .stages_photo {
+  display: block;
+  margin-bottom: 22px;
+}
+.stages .stages_text {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
 /*# sourceMappingURL=style.css.map */
