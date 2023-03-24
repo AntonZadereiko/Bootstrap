@@ -209,3 +209,46 @@ header{
     padding: 25px 20px;
   }
 }
+.guideline{
+  .guideline_subtitle{
+    margin-bottom: 15px;
+    font-family: $main_font;
+    font-size: 30px;
+  }
+  .guideline_image{
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .guideline_text{
+    font-family: $main_font;
+    font-size: 19px;
+    &:first-of-type{
+      background: #2B59C3;;
+      border-radius: 5px;
+      margin-left: -10px;
+      padding: 10px;
+    }
+  }
+  .guideline_titles{
+    margin: 77px 0 27px;
+    h3{
+      font-family: $main_font;
+      font-size: 30px;
+      margin-bottom: 11px;
+    }
+    h4{
+      font-family: $main_font;
+      font-size: 20px;
+    }
+  }
+  .form-check-label{
+    margin-left: 15px;
+  }
+  .form-check-input{
+    margin-left: -3px;
+  }
+  .btn-mine{
+    padding: 7px;
+  }
+}
